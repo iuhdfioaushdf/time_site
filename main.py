@@ -4,7 +4,7 @@ import os
 
 app = Flask(__name__)
 
-@app.route("/")
+@app.route("/time/")
 def index():
 
     time_obj = str(time.time())
